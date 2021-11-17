@@ -1,0 +1,30 @@
+.container {
+    height: 400px;
+    background: rgb(16, 26, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1em;
+    padding: 1em 1em 0 1em;
+    position: relative;
+}
+
+.element {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-bottom: none;
+    display: grid;
+    place-items: center;
+    color: #ccc;
+}
+
+.sorted {
+    border-color: green;
+}
+
+span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ccc;
+}
